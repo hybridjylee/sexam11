@@ -42,7 +42,7 @@ public class PropertiesTest {
 		String mess1 = ms.getMessage("required", null, null);
 		log.info(mess1);
 		
-		Locale.setDefault(Locale.GERMAN);
+//		Locale.setDefault(Locale.GERMAN);
 		
 		String mess2 = ms.getMessage("required", null, Locale.JAPANESE);
 		log.info(mess2);
